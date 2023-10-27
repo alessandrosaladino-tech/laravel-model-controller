@@ -4,7 +4,7 @@
         <div class="card shadow h-100">
 
             <div class="card-body">
-                
+
                 <div class="card-img-top">
                     <img src="https://picsum.photos/400/200?random={{ $movie->id }}"
                         class="card-img-top rounded-2 mb-3" alt="{{ $movie->original_title }}">
@@ -23,6 +23,6 @@
 @empty
 
     <div class="col">
-        <h2>No Movies in the database! 😥</h2>
+        <h2>No Movies in the database</h2>
     </div>
 @endforelse
