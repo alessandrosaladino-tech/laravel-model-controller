@@ -11,5 +11,7 @@ class PageController extends Controller
     {
         // RETURNS THE VIEW 'index' (index.blade.php)
         return view('index', ['movies' => Movie::all()]);
+
     }
+    
 }
