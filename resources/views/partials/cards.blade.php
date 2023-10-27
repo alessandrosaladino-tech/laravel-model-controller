@@ -1,4 +1,4 @@
-@forelse ($Movies as $Movie)
+@forelse ($Movies as $movie)
     <div class="col">
 
         <div class="card shadow h-100">
